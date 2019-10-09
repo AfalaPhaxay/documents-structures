@@ -1,6 +1,10 @@
 <!-- Afala PHAXAY 21603820 Inalco IM -->
 
+<<<<<<< HEAD
 <!-- DTD pour structurer un livre-->
+=======
+<!-- DTD pour structurer une bibliographie-->
+>>>>>>> 3d559812cf52181e93179847c6e66d1e663d1c94
 
 <!ELEMENT livres (livre+)>
 
