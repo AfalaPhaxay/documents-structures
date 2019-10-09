@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE livres SYSTEM "./../devoirs/exo_dtd.dtd">
+
 <livres>
 
     <livre isbn="00000" genre="science-fiction">
