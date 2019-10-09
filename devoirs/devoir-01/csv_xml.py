@@ -35,9 +35,4 @@ xmlData.write('\n'.join([convert_row(row) for row in data[1:]]))
 
 xmlData.write('\n</tournage>')
 
-xmlData.close()
-
-
-# print(row[0])
-# print(row[1])
-# print(len(row))     
+xmlData.close()    
