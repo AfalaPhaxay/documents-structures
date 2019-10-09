@@ -30,7 +30,7 @@ def convert_row(row):
         <xy>%s</xy>
       </film>"""% (row[0], row[1],row[5], row[2], row[3], row[4], row[6], row[7],row[8])
     
-# print('\n'.join([convert_row(row) for row in data[1:]]))
+
 xmlData.write('\n'.join([convert_row(row) for row in data[1:]]))
 
 xmlData.write('\n</tournage>')
