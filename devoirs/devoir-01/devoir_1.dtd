@@ -16,4 +16,3 @@
         <!ELEMENT Date_debut (%STR;)>
         <!ELEMENT Date_fin (%STR;)>
         <!ELEMENT xy (%STR;)>
-
