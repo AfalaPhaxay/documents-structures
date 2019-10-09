@@ -1,0 +1,19 @@
+<?xml encoding="UTF-8"?>
+
+<!ENTITY % STR "#PCDATA">
+
+<!ELEMENT tournage (film)+>
+
+    <!ELEMENT film (Titre,Realisateur,Adresse,Organisme_Demandeur,
+                    Type_tournage,Date_debut,Date_fin,xy)>
+        <!ELEMENT Titre (%STR;)>
+        <!ELEMENT Realisateur (%STR;)>
+        <!ELEMENT Adresse (%STR;)>
+            <!ATTLIST  Adresse arrondissement CDATA #REQUIRED>
+        <!ELEMENT Organisme_Demandeur (%STR;)>
+        <!ELEMENT Type_tournage (%STR;)>
+        <!ELEMENT Arrondissement (%STR;)>
+        <!ELEMENT Date_debut (%STR;)>
+        <!ELEMENT Date_fin (%STR;)>
+        <!ELEMENT xy (%STR;)>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE information [ 
+	<!ENTITY type "Lithium polymère">
+	<!ELEMENT information (lecteur+)>
+	<!ELEMENT lecteur (nom,autonomie,connectique,poids,batterie)>
+		<!ELEMENT nom (#PCDATA)>
+			<!ATTLIST nom id CDATA #REQUIRED>
+			<!ATTLIST nom marque CDATA #REQUIRED>
+		<!ELEMENT autonomie (#PCDATA)>
+		<!ELEMENT connectique (#PCDATA)>
+		<!ELEMENT poids (#PCDATA)>
+		<!ELEMENT batterie (#PCDATA)>
+]>
+
+<information>
+	
+	<lecteur>
+		<nom id="" marque=""/>
+		<autonomie></autonomie>
+		<connectique></connectique>
+		<poids></poids>
+		<batterie>&type;</batterie>
+	</lecteur>
+	<lecteur>
+		<nom id="" marque=""/>
+		<autonomie></autonomie>
+		<connectique></connectique>
+		<poids></poids>
+		<batterie>&type;</batterie>
+	</lecteur>
+	<lecteur>
+		<nom id="" marque=""/>
+		<autonomie></autonomie>
+		<connectique></connectique>
+		<poids></poids>
+		<batterie>&type;</batterie>
+	</lecteur>
+	<lecteur>
+		<nom id="" marque=""/>
+		<autonomie></autonomie>
+		<connectique></connectique>
+		<poids></poids>
+		<batterie>&type;</batterie>
+	</lecteur>
+	<lecteur>
+		<nom id="" marque=""/>
+		<autonomie></autonomie>
+		<connectique></connectique>
+		<poids></poids>
+		<batterie>&type;</batterie>
+	</lecteur>
+		
+</information>
+	
